@@ -25,6 +25,8 @@ class DashboardController extends Controller
         $this->settingRepository = $settingRepository;
     }
 
+   
+
 
     public function index()
     {
