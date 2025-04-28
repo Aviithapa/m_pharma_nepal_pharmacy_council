@@ -46,7 +46,7 @@ class DashboardController extends Controller
                 break;
             case 'noc_user':
                 return redirect()->route('m-pharma.index');
-                 break;
+                break;
 
             default:
                 return $this->view('dashboard.default');
